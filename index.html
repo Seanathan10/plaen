@@ -15,19 +15,50 @@
         height: 100%;
         background-color: rgb(129, 5, 5);
     }
-    </style>
-    
-    <h1 class="title">WELCOME TO PLANE GAME</h1>
 
-    <iframe src="https://scratch.mit.edu/projects/657827936/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    .div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-    <h1>COURTESY OF GABRIEL HENRY WEISBRICH</h1>
-    
-    <style>
-        .title {
-            color: blue;
-        }
+    .title {
+        color: blue;
+        animation: color-change 5s infinite;
+    }
+
+    .title:hover {
+        color: lime;
+    }
+
+    .title2 {
+        color: red;
+        animation: color-change 5s infinite;
+    }
+
+    .title2:hover {
+        color: lime;
+    }
+
+    @keyframes color-change {
+        0% { color: red; }
+        20% { color: yellow }
+        40% { color: lime; }
+        60% { color: blue; }
+        80% { color: purple; }
+        100% { color: pink; }
+    }
+
     </style>
+
+
+    <div class="div1">
+        <h1 class="title">WELCOME TO PLANE GAME</h1>
+        
+        <iframe src="https://scratch.mit.edu/projects/657827936/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        
+        <h1 class="title2">COURTESY OF GABRIEL HENRY WEISBRICH</h1>
+    </div>
 
 </body>
 </html>
