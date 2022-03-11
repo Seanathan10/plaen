@@ -14,6 +14,7 @@ html {
 }
 
 .title {
+    font-family: "Comic Sans MS";
     color: blue;
     animation: color-change 5s infinite;
     padding: 2rem;
@@ -25,6 +26,7 @@ html {
 }
 
 .title2 {
+    font-family: "Comic Sans MS";
     color: red;
     animation: color-change 5s infinite;
     padding: 3rem;
@@ -66,6 +68,7 @@ html {
 }
 
 .marquee {
+    font-family: "Comic Sans MS";
     color: red;
     animation: color-change 5s infinite;
     padding: 3rem;
