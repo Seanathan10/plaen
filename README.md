@@ -1,2 +1,2 @@
 # trigometry_run
-trigometry run by Cody
+plaen game by gabe, great game developer, pls hire him
