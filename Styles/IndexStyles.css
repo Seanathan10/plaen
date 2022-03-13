@@ -14,7 +14,7 @@ html {
     box-sizing: border-box;
 }
 
-.div1 {
+.Div1 {
     display: block;
     align-items: center;
     justify-content: center;
@@ -31,13 +31,13 @@ html {
     transform: scale( 1.5 ) rotateX( 1turn );
 }
 
-.title2 {
+.Title2 {
     color: red;
     animation: color-change 5s infinite;
     padding: 3rem;
 }
 
-.title2:hover {
+.Title2:hover {
     color: lime;
 }
 
@@ -58,15 +58,15 @@ html {
     justify-content: center;
 }
 
-.div1 {
+/* .Div1 { */
     /* border: 5px solid lime; */
-}
+/* } */
 
-.gameframe {
+.GameFrame {
     padding: 1.5rem;
 }
 
-.divtest2 {
+.DivTest2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,13 +76,14 @@ html {
     color: red;
     animation: color-change 5s infinite;
     padding: 3rem;
-    animation: scroll-left 20s linear infinite, color-change2 5s infinite;
+    animation: scroll-left 15s linear infinite, color-change2 5s infinite;
     transition: all 0.5s ease-in-out;
 }
 
-.Marquee:hover {
+
+/* .Marquee:hover { */
     /* animation-play-state: paused; */
-}
+/* } */
 
 @-moz-keyframes scroll-left {
     0% {
